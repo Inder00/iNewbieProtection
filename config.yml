@@ -1,0 +1,26 @@
+# Czas trwania ochrony poczatkowej (w sekundach)
+protection-time: 1800 # 30 minut
+
+# Informacja, ze ten gracz posiada ochrone
+has-protection: '&cTen gracz posiada ochrone startowa lub ty ja posiadasz!'
+
+# Informacja, pod komenda /protection [alias: /ochrona]
+# Uprawnienie: protection.command
+# Zmienne: {TIME}
+protection-command: '&8» &7Pozostaly czas ochrony: &e{TIME}'
+
+# Brak uprawnien
+no-permission: '&cNie posiadasz wystarczajacych uprawnien do wykonania tej komendy'
+
+# Informacja, ze ochrona zostala nadana
+# Zmienne: {TIME}
+protection-added: '&8» &7Otrzymales ochrona startowa na &e{TIME}'
+
+# Informacja, ze ochrona sie skonczyla
+protection-ended: '&8» &7Twoja &eochrona startowa &7sie skonczyla. Powodzenia!'
+
+# Czy maja byc wlaczone prefixy (przed nickiem gracza)
+use-prefix: true
+
+# Prefix gracza, gdy on posiada ochrone
+prefix-name: '&8[&eOchrona&8] '

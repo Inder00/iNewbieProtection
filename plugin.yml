@@ -1,0 +1,8 @@
+name: iNewbieProtection
+version: 1.1-BUGFIX
+authors: [Inder00]
+main: pl.inder00.newbieprotection.NewbieProtection
+commands:
+  protection:
+    description: Pozostaly czas ochrony
+    aliases: [ochrona]
